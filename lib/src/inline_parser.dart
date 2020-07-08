@@ -89,7 +89,7 @@ class InlineParser {
     }
 
     // Custom link resolvers go after the generic text syntax.
-    syntaxes.insertAll(1, [
+    syntaxes.insertAll(2, [
       LinkSyntax(linkResolver: document.linkResolver),
       ImageSyntax(linkResolver: document.imageLinkResolver)
     ]);
